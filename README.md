@@ -13,7 +13,3 @@
 - 住宿與租車資訊
 
 用手機打開效果最好，可以從瀏覽器選單「加入主畫面」，旅途中一鍵打開。
-
-## 字型
-
-網頁使用 [jf open 粉圓](https://github.com/justfont/open-huninn-font) 2.1 的子集，依 SIL Open Font License 1.1 改名為 TabiMaru 後內嵌在 `index.html` 中。

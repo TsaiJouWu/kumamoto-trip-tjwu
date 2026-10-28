@@ -919,7 +919,7 @@ function d4HTML(animate){
   var a = animate ? ' anim-in' : '';
   return '<div class="alert' + a + '" style="--i:1"><h4>' + icon('warn') + '今天的重要提醒</h4><ol>' +
       D4.alert.map(function(x){ return '<li>' + x + '</li>'; }).join('') + '</ol></div>' +
-    '<p class="opt-label">選一條路線（只開一輛車，二選一）</p>' +
+    '<p class="opt-label">選擇一條路線！</p>' +
     '<div class="opt-switch' + a + '" style="--i:2">' + D4.opts.slice().reverse().map(function(o){
       return '<button type="button" class="opt-btn" data-opt="' + o.key + '" aria-pressed="' + (o.key === d4Key) + '"><span class="o-k">' + o.k + '</span><span class="o-t">' + o.name + '</span></button>';
     }).join('') + '</div>' +
